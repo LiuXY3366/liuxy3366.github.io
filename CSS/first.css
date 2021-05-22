@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #eae8eb;
+}
+#box_r{
+    position: fixed;
+    width: 600px;
+    height: 50px;
+    left: 29.5%;
+    top : 35px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    z-index: 1;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+#box_cirL{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    left: 28%;
+    top:35px;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 1;
+    border: 2px solid red;
+}
+#box_cirR{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    right:29.5%;
+    top:35px;
+    border-radius: 50% 50% 50% 50%;
+    z-index: 1;
+    border: 2px solid red;
+}
+#main{
+    position: relative;
+    width: 1100px;
+    height: 1900px;
+    left: 13%;
+    top:150px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 0.5;
+}
+#main_1{
+    position:absolute;
+    width: 60%;
+    height: 500px;
+    left: 20%;
+    top : 50px;
+    border:1px solid black;
+    background-color: white;
+}
+#img_1{
+    position:absolute;
+    width: 200px;
+    top:-70px;
+    left: 200px;
+    transform: scale(0.5);
+    z-index: 0.8;
+}
+#input{
+    background-color: white;
+}
+#input1{
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    border: 0; /*去除未选中时样式*/
+    outline: none;/*去除选中样式*/
+    background-color: rgba(0, 0, 0, 0);/*透明背景*/
+}
+#daohang{
+    position: absolute;
+			width: 60%;
+			height: 40px;
+            left: 32%;
+            top : 90px;
+			/*列表的默认样式清除（将前面黑色的圆球干掉）*/
+			list-style: none;
+}
+.l1{
+    float: left;
+    width: 80px;
+    height: 50px;
+    color: black;
+    /*行高,文字居中*/
+    line-height: 50px;
+    text-align: center;
+    /*小手*/
+    cursor: pointer;
+}
+.l1:hover{
+    background-color: green;
+}
